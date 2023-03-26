@@ -7,10 +7,10 @@ A Data Mining assignment to build a image classifier for Kaggle Facial expressio
    - Download API Credentials from Kaggle Profile (Account -> Create New API token). A "kaggle.json" file will be downloaded. 
    - Upload "kaggle.json" file to Google Colab.
    - Run the following commands in Google Colab :
-     -- ! pip install kaggle
-     -- ! mkdir ~/.kaggle
-     -- ! cp kaggle.json ~/.kaggle/
-     -- ! chmod 600 ~/.kaggle/kaggle.json
+     --- ! pip install kaggle
+     --- ! mkdir ~/.kaggle
+     --- ! cp kaggle.json ~/.kaggle/
+     --- ! chmod 600 ~/.kaggle/kaggle.json
 - Run the command "! kaggle datasets download samaneheslamifar/facial-emotion-expressions" to download the dataset
 - Run the command "! unzip facial-emotion-expressions" to unzip the file.
 - Run all the code cells
